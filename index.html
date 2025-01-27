@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations Card</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Georgia', serif;
+            background: #f2f7ff;
+        }
+        .card {
+            width: 80%;
+            max-width: 700px;
+            margin: 50px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            text-align: center;
+            border: 5px solid #003366;
+        }
+        .header {
+            background: linear-gradient(135deg, #003366, #00509e);
+            color: white;
+            padding: 20px;
+            border-bottom: 5px solid #ffd700;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .photo-container {
+            margin: 20px auto;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #ffd700;
+            border-radius: 50%;
+            overflow: hidden; /* Ensures the image fits within the rounded container */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image fills the container without distortion */
+        }
+
+        .decorative-border {
+            margin: 20px auto;
+            height: 10px;
+            width: 80%;
+            background: repeating-linear-gradient(45deg, #ffd700, #ffd700 10px, #003366 10px, #003366 20px);
+            border-radius: 10px;
+        }
+        .content {
+            padding: 20px;
+            font-size: 1.2em;
+            line-height: 1.8;
+            color: #333;
+        }
+        .highlight {
+            color: #003366;
+            font-weight: bold;
+        }
+        .footer {
+            padding: 20px;
+            font-size: 1em;
+            background: #f1f1f1;
+            color: #555;
+            border-top: 5px solid #ffd700;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .signature {
+            margin-top: 10px;
+            font-style: italic;
+            font-size: 1.1em;
+        }
+        .floral-decor {
+            margin: 20px auto;
+            width: 100%;
+            height: 100px;
+            background: url('placeholfer7.jpg') no-repeat center center;
+            background-size: contain;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>Congratulations on 2 Successful Years!</h1>
+        </div>
+        <div class="photo-container">
+            <img src="pvjj.png" height="1000px" width="1000px" />
+        </div>
+        <!-- <div class="decorative-border"></div> -->
+        <div class="content">
+            <p>
+                Dear <span class="highlight">ATTAIAH</span>,
+            </p>
+            <p>
+                Warm wishes on completing 2 years of distinguished service as the Justice of Andhra Pradesh High Court. Your journey and commitment continue to inspire all of us.
+            </p>
+            <p>
+                Wishing you many more successful milestones ahead.
+            </p>
+        </div>
+        <div class="floral-decor"></div>
+        <div class="footer">
+            <p>Yours lovingly,</p>
+            <p class="signature" style="margin-top: 5PX;">P VENKATA RAVIEKANTH</p>
+        </div>
+    </div>
+</body>
+</html>
